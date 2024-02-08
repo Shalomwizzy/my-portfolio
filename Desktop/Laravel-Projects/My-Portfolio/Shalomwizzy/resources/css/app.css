@@ -1,0 +1,31 @@
+:root {
+    --light: #FFFFFF;
+    --dark: #000000;
+    --primary: gold;
+    --secondary: #EF7711;
+    --font-family: 'Lobster Two', cursive;
+    --text-lg: 30px;
+    --text-lg: 20px;
+    --text-lg: 16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: contain;
+    padding: 16px;
+  
+    margin: 0; 
+    padding: 0;
+} */
+
+
+
+
