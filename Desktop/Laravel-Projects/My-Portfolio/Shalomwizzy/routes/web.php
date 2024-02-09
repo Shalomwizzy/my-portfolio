@@ -39,6 +39,7 @@ Route::get('/skillsIndex', [PagesController::class, 'skillsIndex'])->name('skill
 Route::get('/learningsIndex', [PagesController::class, 'learningsIndex'])->name('learnings.userIndex');
 Route::get('/welcome-section', [PagesController::class, 'WelcomeSection'])->name('welcome.section');
 Route::get('/thankYou',[PagesController::class, 'thankYou'])->name('thank.you');
+Route::get('/aboutMe',[PagesController::class, 'aboutMe'])->name('about.me');
 
 // ADMIN ROUTES
     Route::middleware(['auth', 'role.checker'])->group(function () {

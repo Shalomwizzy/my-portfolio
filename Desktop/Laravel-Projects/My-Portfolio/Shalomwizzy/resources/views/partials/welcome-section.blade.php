@@ -26,7 +26,7 @@
 
 
 {{-- ABOUT ME --}}
-<section class="mt-5">
+<section   class="mt-5">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
@@ -46,7 +46,7 @@
                     I thrive on taking up new challenges and working on innovative projects that push the boundaries of technology. I believe in the power of continuous learning and am always eager to enhance my skills to stay ahead in this dynamic field.
                 </p>
                 <div class="mt-4">
-                    <h6><a href="https://1drv.ms/b/s!AolA_6C5gyWGbyHIX0SuiiQ-rB8?e=ceWXQm" class="btn btn-primary btn-downloadcv"><i class="fa-solid fa-download"></i> Download CV</a></h6>
+                    <h6><a href="https://1drv.ms/b/s!AolA_6C5gyWGbyHIX0SuiiQ-rB8?e=ceWXQm" class="btn btn-primary btn-downloadcv" target="blank"><i class="fa-solid fa-download"></i> Download CV</a></h6>
                 </div>
             </div>
         </div>

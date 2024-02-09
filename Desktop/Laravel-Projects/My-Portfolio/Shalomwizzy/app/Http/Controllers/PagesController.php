@@ -16,6 +16,10 @@ class PagesController extends Controller
     return $this->loadWelcomeView();
 }
 
+public function aboutMe(){
+    return view('about-me');
+}
+
 public function thankYou(){
     return view('thanksyou');
 }

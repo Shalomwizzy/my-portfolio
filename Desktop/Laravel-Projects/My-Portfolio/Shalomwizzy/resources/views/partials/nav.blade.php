@@ -17,7 +17,7 @@
                   </a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link animate__animated animate__flip" href="#"><i
+                  <a class="nav-link animate__animated animate__flip" href="{{ route('about.me') }}"><i
                           class="fa-solid fa-address-card "></i> About</a>
               </li>
               <li class="nav-item">
@@ -25,12 +25,6 @@
                           class="fa-solid fa-folder fa-beat"></i> Projects</a>
               </li>
 
-              {{-- <li class="nav-item admin-only">
-                <a href="{{ route('login') }}" class="nav-link text-nowrap"> Login <i class="fa-solid fa-user"></i></a>
-            </li>
-            <li class="nav-item admin-only">
-                <a href="{{ route('register') }}" class="nav-link text-nowrap">Register <i class="fa-solid fa-user"></i></a>
-            </li> --}}
 
 
               <li class="nav-item">
@@ -70,3 +64,5 @@
         display: none; /* Hide the element */
     }
 </style>
+
+
